@@ -1,0 +1,27 @@
+code:
+
+n = input("Enter name: ")
+ag = input("Enter age: ")
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+sum = (a+b)
+
+print("Name: ", n)
+print("Age: ", ag)
+print(a, "+", b, "=", sum)
+cars = ["Toyota", "Mazda", "Lambo", "Suzuki", "Tesla"]
+cars.insert (5, "Ferrari")
+cars.pop (2)
+print(cars)
+
+results:
+
+Enter name: Nina
+Enter age: 34
+Enter first number: 46
+Enter second number: 76
+Name:  Nina
+Age:  34
+46 + 76 = 122
+['Toyota', 'Mazda', 'Suzuki', 'Tesla', 'Ferrari']

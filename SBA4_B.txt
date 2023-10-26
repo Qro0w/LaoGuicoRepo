@@ -1,0 +1,22 @@
+code:
+
+a = 0
+b = 1
+print("Enter 5 Numbers")
+while b <= 5:
+    c = int(input("Enter: "))
+    a += c
+    b += 1
+print("Result: ", a)
+
+output:
+
+Enter 5 Numbers
+Enter: 5
+Enter: 5
+Enter: 5
+Enter: 5
+Enter: 5
+Result:  25
+
+Result:  5

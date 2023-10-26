@@ -1,0 +1,62 @@
+code:
+
+fname = input("First Name: ")
+lname = input("Last Name: ")
+a = int(input("Annual Salary: "))
+b = int(input("Employee Rating: "))
+if b == (1):
+    bsum1 = ((a*10)/100)
+    print("Name:", fname, lname)
+    print("Salary:", a)
+    print("Rating:", b)
+    print("Bonus:", bsum1)
+elif b == (2):
+    bsum2 = ((a*6)/100)
+    print("Name:", fname, lname)
+    print("Salary:", a)
+    print("Rating:", b)
+    print("Bonus:", bsum2)
+elif b == (3):
+    bsum3 = ((a*3)/100)
+    print("Name:", fname, lname)
+    print("Salary:", a)
+    print("Rating:", b)
+    print("Bonus:", bsum3)
+else:
+    print ("Invalid Rating")
+
+result 1:
+
+First Name: Rye Nicholas
+Last Name: Lao Guico
+Annual Salary: 750000
+Employee Rating: 1
+
+Name: Rye Nicholas Lao Guico
+Salary: 750000
+Rating: 1
+Bonus: 75000.0
+
+result 2:
+
+First Name: Rye Nicholas
+Last Name: Lao Guico
+Annual Salary: 750000
+Employee Rating: 2
+
+Name: Rye Nicholas Lao Guico
+Salary: 750000
+Rating: 2
+Bonus: 45000.0
+
+result 3:
+
+First Name: Rye Nicholas
+Last Name: Lao Guico
+Annual Salary: 750000
+Employee Rating: 3
+
+Name: Rye Nicholas Lao Guico
+Salary: 750000
+Rating: 3
+Bonus: 22500.0

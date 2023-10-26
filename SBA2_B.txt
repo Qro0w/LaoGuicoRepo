@@ -1,0 +1,48 @@
+code:
+
+n = input("Student: ")
+gA = int(input("Science: "))
+gB = int(input("Mathematics: "))
+gC = int(input("Communications: "))
+gD = int(input("Information Tech: "))
+gE = int(input("Programming 1: "))
+
+sum = int(gA+gB+gC+gD+gE)/5
+if sum >= (85):
+    print("")
+    print("Student: ", n)
+    print("Grade Ave: ", sum)
+    print("Highest Honor")
+    print("")
+elif sum >= (80):
+    print("")
+    print("Student: ", n)
+    print("Grade Ave: ", sum)
+    print("Honor")
+    print("")
+elif sum >= (75):
+    print("")
+    print("Student: ", n)
+    print("Grade Ave: ", sum)
+    print("Pass")
+    print("")
+elif sum < (75):
+    print("")
+    print("Student: ", n)
+    print("Grade Ave: ", sum)
+    print("Fail")
+    print("bobo")
+    print("")
+
+result:
+
+Student: Rye Lao Guico
+Science: 83
+Mathematics: 89
+Communications: 79
+Information Tech: 90
+Programming 1: 85
+
+Student:  Rye Lao Guico
+Grade Ave:  85.2
+Highest Honor

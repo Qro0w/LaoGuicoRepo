@@ -1,0 +1,17 @@
+code:
+
+a = input("Enter Message: ")
+b = int(input("How Many Times?: "))
+c = 0
+while c < b:
+    print(a)
+    c += 1
+
+output:
+
+Enter Message: Hello
+How Many Times?: 5
+Hello
+Hello
+Hello
+Hello

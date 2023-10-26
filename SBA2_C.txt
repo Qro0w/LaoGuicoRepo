@@ -1,0 +1,36 @@
+code:
+
+cred = input("Username: ")
+cred2 = input("Password: ")
+statvar1 = "Rye_LaoGuico"
+statvar2 = "JollyHotdog"
+
+while True:
+    if cred == statvar1:
+        if cred2 == statvar2:
+            print("Login")
+            break
+    if cred != statvar1:
+            print("Invalid Username")
+            break
+    elif cred2 != statvar2:
+            print("Invalid Password")
+            break
+    
+result1:
+
+Username: Rye_LaoGuico
+Password: mistake     
+Invalid Password
+
+result2:
+
+Username: mistake
+Password: JollyHotdog
+Invalid Username
+
+result3:
+
+Username: Rye_LaoGuico
+Password: JollyHotdog
+Login

@@ -1,0 +1,30 @@
+code:
+
+word = ("magic")
+gword = input("Enter thy magic word: ")
+while True:
+    if gword == word:
+        print("You got it!")
+        break
+    else:
+        print("GUESS AGAIN IDIOT")
+        print("(Hint: it's magical)")
+        a = input("Enter Again: ")
+        if a == word:
+            print('Finally...')
+            break
+        else:
+            print("")
+
+output 1:
+
+Enter thy magic word: magic
+You got it!
+
+output 2: 
+
+Enter thy magic word: magi
+GUESS AGAIN IDIOT
+(Hint: it's magical)
+Enter Again: magic
+Finally...

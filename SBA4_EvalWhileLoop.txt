@@ -1,0 +1,40 @@
+A. Code Evaluation. Write the output of the Python Code.
+1. What is the output of the following while loop statement?
+
+n = 1
+while n < 5:
+print("Hello World!")
+n = n+1
+
+Ans: Hello World!
+	(infinite loop)
+
+2. What is the output of the following while loop statement?
+
+n = 10
+while n <= 100:
+print(n ,end = ",")
+n = n+10
+
+Ans: 10,10,10,10 (infinite loop)
+
+3. What is the output of the following while loop statement?
+
+n = 15
+while n >= 0:
+print(n)
+n = n-5
+
+Ans: 15
+	(infinite loop)
+
+4. What is the output of the following while loop statement?
+
+n = 0
+n2=10
+while n <=n2:
+print(n)
+n = n+2
+
+Ans: 0
+	(infinite loop)

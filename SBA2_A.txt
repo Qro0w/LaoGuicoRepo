@@ -1,0 +1,19 @@
+code:
+
+a = int(input("Number: "))
+if a < 0:
+    print("NEGATIVE")
+else: 
+    print("POSITIVE")
+
+    print(a)
+
+result1:
+
+Number: -5
+NEGATIVE
+
+result:2:
+
+Number: 5
+POSITIVE
